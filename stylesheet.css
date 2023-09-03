@@ -60,9 +60,8 @@
 .settings {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
-    gap: 20px;
     background: linear-gradient(to left bottom, rgb(104, 36, 36), rgb(12, 38, 46));
     height: 200px;
     width: 135px;
@@ -89,12 +88,12 @@
     border: solid 1px orange;
     border-radius: 10px;
     background-color: rgba(116, 73, 0, 0.76);
-    margin: 10px 0;
+    margin: 10px;
 }
 
 button {
     width: 70px;
-    padding: 15px;
+    padding: 7px;
     background-color: orange;
     border: none;
     border-radius: 5px;
@@ -111,9 +110,10 @@ input {
     background-color: aliceblue;
     color: black;
     width: 60px;
-    height: 30px;
+    height: 40px;
     border-radius: 5px;
     border: orange solid 1px;
     font-weight: bolder;    
     text-align: center;
+    margin: 15px;
 }
