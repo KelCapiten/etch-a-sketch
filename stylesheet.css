@@ -94,7 +94,7 @@
 button {
     width: 70px;
     padding: 7px;
-    background-color: orange;
+    background-color: rgb(255, 145, 0);
     border: none;
     border-radius: 5px;
     font-weight: bolder;
