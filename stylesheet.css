@@ -1,0 +1,119 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hover {
+    background-color: black;
+}
+
+.main {
+    height: 100vh;
+    background: linear-gradient(to right top, rgb(255, 127, 127), rgb(109, 213, 245));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+#one {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    filter: blur(2.5px);
+    transition: all 1s ease;
+
+}
+
+#one:hover {
+    filter: blur(0);
+}
+
+#two {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    transition: all 1s ease;
+}
+
+#two:hover {
+    filter: blur(2.5px);
+}
+
+.grid {
+    background-color: rgb(255, 230, 197);
+}
+
+.gridContainer {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.274);
+    border: 3px solid rgb(255, 136, 0);
+}
+
+.outerContainer {
+    padding: 30px;
+    background: linear-gradient(to left bottom, rgba(15, 19, 26, 0.5), rgba(1, 0, 8, 0.6));
+    border-radius: 20px;
+    box-shadow: 0 0 10px 5px rgb(255, 255, 255);
+    border: solid 1px rgb(224, 255, 47);
+}
+
+.settings {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    background: linear-gradient(to left bottom, rgb(104, 36, 36), rgb(12, 38, 46));
+    height: 200px;
+    width: 135px;
+    border-radius: 10px;
+    border: rgb(155, 155, 155) solid 2px;
+    box-shadow: 0 0 10px 5px rgb(255, 255, 255);
+}
+
+.settingsHeader {
+    color: azure;
+    font-size: 16px;
+    border: 1px solid rgb(121, 121, 121);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 135px;
+    height: 40px;
+    background: linear-gradient(to right bottom, rgba(15, 19, 26, 0.5), rgba(1, 0, 8, 0.6));
+ 
+}
+
+.btnDvi {
+    border: solid 1px orange;
+    border-radius: 10px;
+    background-color: rgba(116, 73, 0, 0.76);
+    margin: 10px 0;
+}
+
+button {
+    width: 70px;
+    padding: 15px;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    clip-path: polygon(-1% -1%, 100% -1%, 100% 50%, -1% 100%);
+    transition: all 250ms ease;
+}
+
+button:hover {
+    clip-path: polygon(0% 0%, 102% 0%, 102% 102%, 0% 102%);
+}
+
+input {
+    background-color: aliceblue;
+    color: black;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    border: orange solid 1px;
+    font-weight: bolder;    
+    text-align: center;
+}

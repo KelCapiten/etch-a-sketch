@@ -3,11 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="stylesheet.css">
-    <script src="mainjs.js" defer></script>
     <title>Sketch</title>
 </head>
 <body>
-    
+    <div class="main">
+        <div class="sketch"><span id="one">ETCH-A</span><span id="two">-SKETCH</span></div>
+        <div class="settings">
+            <h4 class="settingsHeader">SETTINGS</h4>
+            <input class="setGrid" type="number">
+            <div class="btnDvi">
+                <button onclick="changeGrid()">SET GRID</button>
+            </div>
+        </div>
+        <div class="outerContainer">
+            <div class="gridContainer"></div>
+        </div>
+    </div>
 </body>
+<script src="mainjs.js"></script>
 </html>
